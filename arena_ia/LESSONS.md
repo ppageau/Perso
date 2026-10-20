@@ -1,0 +1,16 @@
+# LEÇONS (màj à chaque erreur/quasi-erreur, revue dimanche)
+
+- 19/10 : book construit sous plafond 15 % devenu 10 % → non-conforme 2,5 h car bloc d'ordres inter-passage non passé. Leçon : re-vérifier conformité à CHAQUE lecture de PDF ; les ordres ne vivent que s'ils sont passés au passage.
+- 19/10 : swap fiche NAS100. (+1,24 short) ≠ swap observé NAS100ft. (0,00). Leçon : la colonne Swap du PDF est la seule vérité ; variantes cash/futures diffèrent.
+- 19/10 : lots minimums (NAS100 pas 0,1 ; or pas 0,01) rendent la prise partielle 50 % impossible. Leçon : dimensionner en multiples pairs du pas quand le stop le permet (ex. NAS100 0,2 avec stop ÷2).
+- 19/10 : or tombé à 4 138 sans moi → tentation de poursuivre le prix. Leçon : ne jamais vendre la faiblesse sur une thèse « vendre le rebond » ; limite = discipline, pas filet.
+- 19/10 : PDF sans tickets → MODIFIER/FERMER par description (symbole+sens+lots+entrée+heure). Toujours re-vérifier que la ligne visée est mienne avant tout ordre de gestion.
+- 20/10 : deux edit_file parallèles sur un même fichier = le second écrase le premier (params v2 perdus, retrouvés au read). Règle : éditer un fichier une seule fois par bloc, ou relire après.
+- Continu : levier en continu = ressource rare. Or 0,01 consomme 4,2:1 pour un groupe de 4 % → privilégier instruments à faible notionnel/risque (actions, indices, pétrole) ; or = usage parcimonieux.
+- 20/10 (2e occurrence après 16:50) : les blocs d'ordres écrits HORS message de passage ne sont PAS passés par Pascal. Règle dure : toute correction urgente attend le passage suivant ou est signalée comme « à repasser » ; jamais compter sur un bloc inter-passage.
+- 20/10 : règle R:R abaissée 3→2 par Pascal. Usage choisi : TP plus proches = probabilité de réalisé plus haute, PAS risque plus grand. Le total open+limites reste ≤10 %.
+- 20/10 : règles v2 : total 15 % (ex 10), semaine −10 % (ex −8), élimination ≤750 $ (ex mode protection), flat forcé 18 déc. 16 h. Usage choisi du plafond relevé : pas d'inflation immédiate — la marge nouvelle finance un 4e groupe décorrélié post-résultats, pas plus de taille sur les thèses existantes.
+- 20/10 : COMMISSIONS révélées par la table des trades terminés : SOXL −16,85 CAD/trade A-R (indépendante du volume), NVDA.24H/FRA40/USOUSD = 0. Règle maison : spread+commission+|swap|×nuits ≤15 % du reward TP ; aucun trade sur symbole à commission inconnue sans budgéter le pire cas. SOXL retiré de l'univers (R:R effectif 0,8 à ma taille).
+- 20/10 : SL à l'entrée posé à +0,33 R (protocole dashboard) tagué par le rebond du matin = −0,22 (taxe de whipsaw). Règle corrigée : sécurisation SL entrée seulement à partir de +1 R ; sous +1 R, le protocole « sécurise si capital-si-TP adverse > mon capital » cède la priorité au SL structurel (déviation documentée au journal à chaque fois).
+- 20/10 : Gemini hors course (−11 %, 9 trades, WR 22 %) après tilt complet ; Claude = seule adversaire pertinente (short EURUSD crowdé perdant). Ne jamais imiter un tilt ; un adversaire qui meurt ne me qualifie pas.
+- 20/10 : autour d'un cluster d'annonces élevées, les ordres STOP ne peuvent pas porter une expiration qui l'enjambe (±30 min) → préférer les LIMITES (non soumises) pour les swings multi-jours, stops = fenêtres courtes.
